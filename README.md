@@ -6,7 +6,7 @@
     </picture>
 </div>
 
-<div aligh="center">
+<div align="center">
   <a href="https://pkg.go.dev/filippo.io/age"><img src="https://pkg.go.dev/badge/filippo.io/age.svg" alt="Go Reference"></a>
   <a href="https://filippo.io/age/age.1"><img src="https://img.shields.io/badge/age(1)-man%20page-lightgrey" alt="man page"></a>
   <a href="https://age-encryption.org/v1"><img src="https://img.shields.io/badge/%C2%A7%23-specification-blueviolet" alt="C2SP specification"></a>
