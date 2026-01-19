@@ -1,14 +1,16 @@
-<p align="center">
+<div align="center">
     <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github.com/FiloSottile/age/blob/main/logo/logo_white.svg">
-        <source media="(prefers-color-scheme: light)" srcset="https://github.com/FiloSottile/age/blob/main/logo/logo.svg">
-        <img alt="The age logo, a wireframe of St. Peters dome in Rome, with the text: age, file encryption" width="600" src="https://github.com/FiloSottile/age/blob/main/logo/logo.svg">
+        <source media="(prefers-color-scheme: dark)" srcset="./logo/logo_white.svg">
+        <source media="(prefers-color-scheme: light)" srcset="./logo/logo.svg">
+        <img alt="The age logo, a wireframe of St. Peters dome in Rome, with the text: age, file encryption" width="600" src="./logo/logo.svg">
     </picture>
-</p>
+</div>
 
-[![Go Reference](https://pkg.go.dev/badge/filippo.io/age.svg)](https://pkg.go.dev/filippo.io/age)
-[![man page](<https://img.shields.io/badge/age(1)-man%20page-lightgrey>)](https://filippo.io/age/age.1)
-[![C2SP specification](https://img.shields.io/badge/%C2%A7%23-specification-blueviolet)](https://age-encryption.org/v1)
+<div aligh="center">
+  <a href="https://pkg.go.dev/filippo.io/age"><img src="https://pkg.go.dev/badge/filippo.io/age.svg" alt="Go Reference"></a>
+  <a href="https://filippo.io/age/age.1"><img src="https://img.shields.io/badge/age(1)-man%20page-lightgrey" alt="man page"></a>
+  <a href="https://age-encryption.org/v1"><img src="https://img.shields.io/badge/%C2%A7%23-specification-blueviolet" alt="C2SP specification"></a>
+</div>
 
 age is a simple, modern and secure file encryption tool, format, and Go library.
 
@@ -31,7 +33,7 @@ $ age --decrypt -i key.txt data.tar.gz.age > data.tar.gz
 
 ✨ For more plugins, implementations, tools, and integrations, check out the [awesome age](https://github.com/FiloSottile/awesome-age) list.
 
-💬 The author pronounces it `[aɡe̞]` [with a hard *g*](https://translate.google.com/?sl=it&text=aghe), like GIF, and it's always spelled lowercase.
+💬 The author pronounces it `[aɡe̞]` [with a hard _g_](https://translate.google.com/?sl=it&text=aghe), like GIF, and it's always spelled lowercase.
 
 ## Installation
 
